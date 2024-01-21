@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+
+li, a, button {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(50, 47, 47);
+}
+
+.navList {
+    list-style: none;
+}
+
+.navList li { 
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.navList li a {
+    transition: all 0.4s ease 0s;
+}
+
+
+.navList li a:hover {
+    color: rgb(67, 118, 108);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(67, 118, 108);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(54, 100, 91);
+}

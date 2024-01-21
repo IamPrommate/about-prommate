@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+.introduction {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 100px;
+    color: rgb(235, 230, 230);
+    font-weight: 700;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.big-text{
+  font-size: 180px;
+}
+
+
+.container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 70vh; /* Set the height to fill the viewport */
+  }
+
+  .flexbox {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+
+  .item {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+  }
+  
+  /* Homepage.css */
+
+.top-photo {
+  width: 80%; /* Set the width to 100% to fit the item's width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+  display: block; /* Remove any extra spacing below the image */
+  transition: all 0.4s ease 0s;
+}
+
+

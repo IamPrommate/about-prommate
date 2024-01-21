@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@700&display=swap');
+
+li, a{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(50, 47, 47);
+    text-decoration: none;
+}
+
+button{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(241, 241, 241);
+    text-decoration: none;    
+}
+
+.logo {
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+    font-weight: 1000;
+    font-size: 24px;
+    color: rgb(50, 47, 47);
+    text-decoration: none;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgba(255, 255, 255, 0.6); 
+  }
+  
+
+.navList {
+    list-style: none;
+}
+
+.navList li { 
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.navList li a {
+    transition: all 0.4s ease 0s;
+}
+
+.navList li a:hover {
+    color: rgb(223, 55, 117);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(75, 151, 136);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(67, 118, 108);
+}
