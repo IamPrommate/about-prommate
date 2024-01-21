@@ -44,7 +44,7 @@
   width: 80%; /* Set the width to 100% to fit the item's width */
   height: auto; /* Automatically adjust the height to maintain the aspect ratio */
   max-width: 100%; /* Ensure the image doesn't exceed its natural size */
-  display: block; /* Remove any extra spacing below the image */
+  display: block; 
   transition: all 0.4s ease 0s;
 }
 
